@@ -1,7 +1,7 @@
 import re
 from pathlib import Path
 
-input_string = Path("E:\\Repos\\AdventToCode\\2025\\Day1\\Input.txt").read_text()
+input_string = Path("E:\\Repos\\AdventToCode\\2025\\Day1\\InputDod.txt").read_text()
  
 # Use regex to find all numbers in the input string
 turns = re.findall(r'(.+)\n', input_string)
