@@ -5,7 +5,7 @@
     <ProjectGuid>5fdaa5f6-9640-453a-9425-fbcdd45983fe</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>2025\Day3\Q2.py</StartupFile>
+    <StartupFile>2025\Day4\Q2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -30,6 +30,7 @@
     <Folder Include="2025\Day1\" />
     <Folder Include="2025\Day2\" />
     <Folder Include="2025\Day3\" />
+    <Folder Include="2025\Day4\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="2024\Day2\Q1.py" />
@@ -44,6 +45,8 @@
     <Compile Include="2025\Day2\Q2.py" />
     <Compile Include="2025\Day3\Q2.py" />
     <Compile Include="2025\Day3\Q1.py" />
+    <Compile Include="2025\Day4\Q1.py" />
+    <Compile Include="2025\Day4\Q2.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="2024\Day2\Input.txt" />
@@ -54,6 +57,8 @@
     <Content Include="2025\Day2\Input.txt" />
     <Content Include="2025\Day3\ExampleInput.txt" />
     <Content Include="2025\Day3\Input.txt" />
+    <Content Include="2025\Day4\ExampleInput.txt" />
+    <Content Include="2025\Day4\Input.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
