@@ -24,7 +24,7 @@ for idRange in idRanges:
     rangeExists = False
     for freshRange in freshRanges:
         if freshRange[0] <= startId and stopId <= freshRange[1]:
-            start = 2
+            start = 1
             stop = 0
             rangeExists = True
             break
@@ -39,10 +39,14 @@ for idRange in idRanges:
 
     if rangeExists == False:
         freshRanges.append(currentRange)
-    rangeToAdd = stop - start + 2
+
+    if stop - start == 0:
+        rangeToAdd = 0
+    else:
+        rangeToAdd = stop - start + 1
     print(rangeToAdd)
-    if rangeToAdd > 2:
-        freshIngredientIds += rangeToAdd
+
+    freshIngredientIds += rangeToAdd
 
 
 print(freshIngredientIds)
